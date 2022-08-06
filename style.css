@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Contains name, job title, and slogan. */
+.header-container {
+    color: white;
+    background-image: url(/images/pexels-stephan-seeber-1261728.jpg);
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    border: .5px solid whitesmoke;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: space-between; /*align horizontal*/
+    /*align-items: center; /*align vertically*/
+}
+
+.name {
+    margin-bottom: 10px;
+    font-family: Garamond, serif;
+    font-size: 70px;
+}
+
+.jobTitle{
+    margin-bottom: 40px;
+    font-family: Garamond, serif;
+    font-size: 30px;
+}
+
+.slogan {
+    font-family: 'Courier New', monospace;
+    font-weight: bold; 
+}
+
+
+.abeImage img{
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #457b9d;
+}
+
+
+
+
+/* Contains 3 social network images. */
+.logo-container {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* Contains image and info about me. */
+.image-container {
+    background-color: #e9ecef;
+    height: 900px;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.centerPage {
+    color: #343a40;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.abeImage {
+    padding-right: 10px;
+}
+
+.infoBox{
+    width: 400px;
+    padding-left: 60px;
+}
+.hello {
+    /*padding-bottom: 10px;*/
+    padding: 5px 0 0 15px;
+    font-family: Garamond, serif;
+    font-weight: bold; 
+    font-size: 50px;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    height: 85px;
+    padding-left: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 20px;
+    font-weight: bold; 
+    font-size: 35px;
+}
+.techSkills {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+
+/* Repo content */
+.gitHubRepo {
+    width: 900px;
+    height: 200px;
+    align-self: flex-end;
+    justify-content: center;
+}
+.repoTitle {
+    height: 30px;
+    font-family: Garamond, serif;
+    padding-left: 367px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+.repo1 {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.gitRepo {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 0 0 50px;
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+/*Foot Container*/
+.footer {
+    background-color: #343a40;
+    height: 150px;
+    position: sticky;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Garamond, serif;
+    font-weight: bold; 
+    font-size: 40px;
+}
+
+.footer1 {
+    width: 600px;
+}
+
+.pTag{
+    color: #dee2e6;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
