@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 /* Contains name, job title, and slogan. */
@@ -77,6 +77,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: 1000px;
 }
 
 .abeImage {
@@ -104,6 +105,7 @@
 .skills {
   display: flex;
   justify-content: flex-start;
+  padding-top: 75px;
   padding-left: 20px;
   font-weight: bold;
   font-size: 35px;
@@ -113,12 +115,17 @@
   display: flex;
   justify-content: center;
   padding-left: 50px;
+  bottom: 20px;
+}
+
+ul {
+  padding-top: 10px;
 }
 
 /* Repo content */
 .gitHubRepo {
-  width: 900px;
-  height: 200px;
+  width: 1000px;
+  height: 400px;
   align-self: flex-end;
   justify-content: center;
 }
